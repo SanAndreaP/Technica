@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":  { "model": "technica:rubbertreeLog" },
+        "axis=z":   { "model": "technica:rubbertreeLogSide" },
+        "axis=x":   { "model": "technica:rubbertreeLogSide", "y": 90 },
+        "axis=none": { "model": "technica:rubbertreeLogBark" }
+    }
+}

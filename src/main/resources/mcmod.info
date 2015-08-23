@@ -1,0 +1,16 @@
+[
+{
+  "modid": "technica",
+  "name": "Technica 2",
+  "description": "Technica is a mod featuring various technical solutions (mostly) based on real life science.",
+  "version": "2.0.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Busti (Busti3000)"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

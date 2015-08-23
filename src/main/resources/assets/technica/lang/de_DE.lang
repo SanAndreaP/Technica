@@ -1,0 +1,12 @@
+#Made by Busti2000
+#Last edited on 16/3/14
+
+tile.XPMagnet.name=Erfahrungs-Magnet
+tile.XPPipe.name=Erfahrungs-Transport-R�hre
+tile.ConveyorBelt.name=Förderband
+tile.CopperOre.name=Kupfererz
+
+item.DataAnalyzer.name=Daten analyse Ger�t
+item.IronStick.name=Eisenstock
+item.Glowstick.name=Leuchtstab
+item.ingotCopper.name=Kupfer Barren
