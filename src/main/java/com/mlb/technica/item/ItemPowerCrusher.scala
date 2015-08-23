@@ -34,7 +34,7 @@ import net.minecraft.util.{BlockPos, EnumFacing}
 import net.minecraft.world.World
 import net.minecraftforge.fml.common.registry.GameRegistry
 
-class ItemPowerCrusher(id: String, material: ToolMaterial) extends ItemTool(1F, material, null) {
+class ItemPowerCrusher(id:String, material:ToolMaterial) extends ItemTool(1F, material, null) {
   val effectiveOn: Set[Material] = Set(Material.clay, Material.craftedSnow, Material.ground, Material.grass, Material.iron, Material.piston, Material.redstoneLight, Material.rock, Material.sand, Material.snow)
 
   GameRegistry.registerItem(this, id)
