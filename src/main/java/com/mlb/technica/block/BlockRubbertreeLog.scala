@@ -33,7 +33,7 @@ class BlockRubbertreeLog(id:String) extends BlockLog {
 
   setDefaultState(blockState.getBaseState.withProperty(BlockLog.LOG_AXIS, BlockLog.EnumAxis.Y))//.withProperty(BlockRubbertreeLog.CONDITION, QuadStateEnum.STATE1))
 
-  override def createBlockState():BlockState = new BlockState(this, BlockLog.LOG_AXIS)
+  override def createBlockState():BlockState = new BlockState(this, BlockLog.LOG_AXIS, BlockRubbertreeLog.CONDITION)
 
   override def onBlockPlaced(worldIn: World, pos: BlockPos, facing: EnumFacing, hitX: Float, hitY: Float, hitZ: Float, meta: Int, placer: EntityLivingBase): IBlockState = {
     super.onBlockPlaced(worldIn, pos, facing, hitX, hitY, hitZ, meta, placer)
